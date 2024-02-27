@@ -49,8 +49,32 @@ const user=[
 
 // console.log(user[1].Id)
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('Name'));
+// console.log(tinderUser.hasOwnProperty('Name'));
+
+
+
+const course={
+    courseName:'js',
+    price:999,
+    courseInstructer:'Raj'
+}
+
+// course.courseInstructer="mamta"
+
+
+// const {courseInstructer}=course
+// console.log(courseInstructer)
+
+const {courseInstructer:instuctor}=course
+console.log(instuctor);
+
+//JSON api
+// {
+//     "name":"raj",
+//     "courseName":'js',
+//     "price":'free'
+// }
